@@ -1,5 +1,7 @@
 # KMS Interface
 
+KMS interface library with mock implementation for public repositories
+
 This is a KMS interface library that provides both interface definitions and default mock implementations for KMS operations.
 
 ## Usage
@@ -74,4 +76,4 @@ func init() {
 1. Public code doesn't reference internal paths
 2. Same behavior in external and internal environments, just different implementations
 3. Minimal code changes required
-4. Easily extensible to support other KMS implementations 
+4. Easily extensible to support other KMS implementations
